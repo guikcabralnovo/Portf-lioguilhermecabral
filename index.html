@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+ 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Guilherme Kieling Cabral</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 2;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        /* Estilos de grid */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header, nav, main, aside, footer {
+            background-color: #e4e4e4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        header {
+            grid-column: 1 / -1;
+            text-align: center;
+            background-color: #0796f5;
+            color: #fff;
+        }
+
+        nav {
+            grid-column: 1 / 4;
+            background-color: #555;
+            color: #fff;
+            border-radius: 8px;
+        }
+
+        main {
+            grid-column: 4 / 10;
+        }
+
+        aside {
+            grid-column: 10 / 13;
+        }
+
+        footer {
+            grid-column: 1 / -1;
+            text-align: center;
+            background-color: #333;
+            color: #ffffff;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ddd;
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Estilos específicos */
+        .about, .skills, .projects, .contact {
+            margin-bottom: 30px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #e2e2e2;
+            border-radius: 8px;
+        }
+
+        .flex-item {
+            background-color: #ccc;
+            padding: 20px;
+            margin: 8px;
+            flex: 1;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            background-color: #2170d6;
+            color: #fff;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 8px;
+            flex: 1 1 30%;
+            text-align: center;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            nav, aside {
+                grid-column: 1 / -1;
+            }
+            .flex-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.portfolioguicabral.com"></a>
+    <div class="container">
+        <header>
+            <h1>Guilherme Kieling Cabral</h1>
+           
+            </flex>
+            
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="about" class="about">
+                <h2>Sobre Mim</h2>
+                <p>Olá, sou Guilherme Kieling Cabral, tenho 27 anos, moro em São Miguel do Oeste-SC, no momento estou cursando Desenvolvimento e Análise de Sistemas. Sou apaixonado por toda a área da informática, mas meu foco é trabalhar com desenvolvimento front-end. Além disso, sou editor de vídeo e tenho um canal de games no YouTube onde compartilho meus vídeos de gameplays e shorts.</p>
+                <p>Ainda estou em busca do meu primeiro projeto na área da tecnologia.</p>       
+            </section>
+            <section id="skills" class="skills">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Desenvolvimento Front-End</li>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                    <li>Edição de Vídeo</li>
+                    <li>Criação de Conteúdo para YouTube</li>
+                </ul>
+            </section>
+            <section id="projects" class="projects">
+                <h2>Projetos</h2>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <a href="https://www.youtube.com/channel/UCkmCGSxxyTnhnn7htLk9Gvg"><h3>YouTube</h3></a>
+                    </div>
+                    <div class="flex-item">
+                        
+                        <a href="https://www.tiktok.com/@guimemesegames"><h3>Tik Tok</h3> </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://www.linkedin.com/in/guilherme-cabral-68b886317/"><h3>Linkedin</h3></a>
+                       
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <h2>Contato</h2>
+            
+            <p>Para entrar em contato, envie um e-mail para: <strong>guikcabralnovo@gmail.com</strong>
+            <P>Meu instagram: <strong>guikcabral</strong></P> 
+            <p>Telefone:(49)9 9990-9302 </p> 
+        </aside>
+        <footer>
+            <p>© 2024 Guilherme Kieling Cabral. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+  
+</body>
+</html>
